@@ -34,9 +34,9 @@
 			"args": [
 				"-y",
 				"@modelcontextprotocol/server-filesystem",
-				"E:/",
 				"C:/",
-				"D:/"
+				"D:/",
+				"E:/"
 			]
 		},
 		"interactive-mcp": {
@@ -59,7 +59,7 @@
 				"@modelcontextprotocol/server-memory"
 			],
 			"env": {
-				"MEMORY_FILE_PATH": "C:/Users/qinta/.mcp/data/memory.jsonl"
+				"MEMORY_FILE_PATH": "memory文件path，也可以删除env配置"
 			}
 		},
 		"sequential_thinking": {
