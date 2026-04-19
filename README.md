@@ -95,7 +95,9 @@ cd continuous-copilot
 合并 MCP 配置时，只复制 `continuous/.mcp.json` 里的 `mcpServers` 条目到你自己的 MCP 配置中，并保留你已有的其他服务。合并后仍需完成以下配置：
 
 - 将 `context7.env.CONTEXT7_API_KEY` 替换为你自己的 Context7 API Key。
-- 确认 `dida365` MCP 可登录并授权。
+- 确认 `dida365`、·`exa` MCP 可登录并授权。
+- 配置filesystem的访问目录
+- 配置memory的记忆文件位置
 - 确认 `interactive-mcp` 启动参数包含 `--disable-tools message_complete_notification`。
 - 按本机磁盘情况调整 `filesystem` MCP 允许访问的路径。
 
