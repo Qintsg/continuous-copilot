@@ -103,6 +103,10 @@ cd continuous-copilot
 
 完成后重启 Copilot 或刷新插件/配置，再选择 `Continuous` 智能体。
 
+## 已知bug
+
+由于hooks的stop脚本对应的滴答清单的字段错误，会在停止时误报本地滴答清单镜像未同步
+
 ## Hook 说明
 
 `continuous/hooks/hooks.json` 中的 hook 命令全部为内联 Python：
