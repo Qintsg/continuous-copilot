@@ -69,7 +69,9 @@ cd continuous-copilot
 插件导入后，打开 Copilot 当前使用的 MCP 配置，至少完成以下配置：
 
 - 将 `context7.env.CONTEXT7_API_KEY` 替换为你自己的 Context7 API Key。
-- 确认 `dida365` 等 MCP 可登录并授权。
+- 配置filesystem的访问目录
+- 配置memory的记忆文件位置
+- 确认 `dida365` 、`exa` 等 MCP 可登录并授权。
 - 确认 `interactive-mcp` 启动参数包含 `--disable-tools message_complete_notification`。
 - 按本机磁盘情况调整 `filesystem` MCP 允许访问的路径。
 
